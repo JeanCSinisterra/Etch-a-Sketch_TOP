@@ -1,7 +1,7 @@
 :root {
     --primary-dark: #333;
     --primary-light: #ffffff;
-    --secondary-light: #fefefe;
+    --secondary-light: #dedede;
 }
 
 *,
@@ -43,7 +43,7 @@ h1 {
 .grid-square {
     width: 30px;
     height: 30px;
-    border: 1px solid var(--secondary-light);
+    border: 1px solid var(--primary-light);
 
 }
 
@@ -51,7 +51,7 @@ h1 {
     display: grid;
     width: 500px;
     height: 500px;
-    background-color: var(--secondary-light);
+    background-color: var(--primary-light);
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 
 }
